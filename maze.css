@@ -1,0 +1,33 @@
+/* create styles for the 2 types of terrain (walls and paths), it can be simple background colors for starter. */
+main {
+    display: grid;
+    grid-template-columns: repeat(13, 50px); 
+    /* gap: 3px;  */
+}
+
+main div{
+    height: 50px;
+    width: 50px;
+}
+
+.walls{
+    /* background-color: rgb(127, 78, 44); */
+    background-image: url('./img/walls1.png');
+    background-size: 50px;
+
+}
+
+.paths{
+    /* background-color: rgb(180, 186, 184); */
+    background-image: url('./img/path.png');
+    background-size: 50px;
+}
+
+.starter{
+    background-color: rgb(90, 157, 176);
+    border-radius: 50px;
+}
+
+.treasure{
+    background-color: rgb(239, 247, 99);
+}
